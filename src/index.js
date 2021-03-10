@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import CustomButton from "./components/Button";
+
+import 'antd/dist/antd.css';
 import './index.css';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    HEllo!
+    <CustomButton />
   </React.StrictMode>,
   document.getElementById('root')
 );
